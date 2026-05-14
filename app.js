@@ -10,7 +10,7 @@ function exibirTexto (tag, texto) {
 }
 function exibirMensagemIniciar () {
     exibirTexto ("h1", "Jogo do Número Secreto");
-    exibirTexto ("p", `Escolha um número entre 1 e ${numeroMaximo}`);
+    exibirTexto ("p", `Diga um número entre 1 e ${numeroMaximo}`);
 }
 
 exibirMensagemIniciar();
